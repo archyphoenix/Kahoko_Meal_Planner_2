@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/act_home_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_home"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meal_plan_for_the_day"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/home_iv_currentMp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/home_placeholder"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_grocerylist"
+                android:gravity="center"/>
+
+            <ListView
+                android:id="@+id/home_lv_groceryList"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popular_recipes"
+                android:gravity="center"/>
+
+            <!--3 popular recipes/ most commonly used-->
+            <TextView
+                android:id="@+id/home_tv_pop_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <TextView
+                android:id="@+id/home_tv_pop_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <TextView
+                android:id="@+id/home_tv_pop_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/suggested_recipes"
+                android:gravity="center"/>
+
+            <!--3 suggested recipes/ least used recipes-->
+            <TextView
+                android:id="@+id/home_tv_sug_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <TextView
+                android:id="@+id/home_tv_sug_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <TextView
+                android:id="@+id/home_tv_sug_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/favorites"
+                android:gravity="center"/>
+
+            <!--3 faves-->
+            <TextView
+                android:id="@+id/home_tv_fav_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <TextView
+                android:id="@+id/home_tv_fav_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <TextView
+                android:id="@+id/home_tv_fav_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

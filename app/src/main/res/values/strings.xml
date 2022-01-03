@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Plan Eat 2</string>
+    <string name="title_home">Home</string>
+    <string name="title_recipe">Recipes</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_grocerylist">Grocery List</string>
+    <string name="meal_plan_for_the_day">Meal Plan for the Day</string>
+    <string name="popular_recipes">Popular Recipes</string>
+    <string name="suggested_recipes">Suggested Recipes</string>
+    <string name="favorites">Favorites</string>
+</resources>
