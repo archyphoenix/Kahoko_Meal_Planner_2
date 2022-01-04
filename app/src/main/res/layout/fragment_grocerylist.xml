@@ -8,11 +8,11 @@
     tools:context=".ui.grocerylist.GroceryListFragment">
 
     <TextView
+        style="@style/PageTitleForTextView"
         android:id="@+id/act_groceryList_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_grocerylist"
-        android:gravity="center"/>
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/title_grocerylist"/>
 
     <ListView
         android:id="@+id/groceryList_listView"

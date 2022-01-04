@@ -4,9 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/activity_main.xml" value="0.209375" />
-        <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/fragment_calendar.xml" value="0.209375" />
+        <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/fragment_calendar.xml" value="0.27247191011235955" />
         <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/fragment_grocerylist.xml" value="0.209375" />
-        <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/layout/fragment_recipe.xml" value="0.1" />
         <entry key="..\:/Users/arch/AndroidStudioProjects/MealPlanner2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.209375" />
       </map>

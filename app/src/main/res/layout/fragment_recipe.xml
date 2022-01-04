@@ -8,11 +8,11 @@
     tools:context=".ui.recipe.RecipeFragment">
 
     <TextView
+        style="@style/PageTitleForTextView"
         android:id="@+id/act_recipe_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_recipe"
-        android:gravity="center"/>
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/title_recipe"/>
 
     <SearchView
         android:id="@+id/recipes_search"
